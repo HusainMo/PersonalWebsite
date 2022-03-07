@@ -1,5 +1,5 @@
 #title{
-    background-color: black;
+    background-color: #1e2c31;
 }
 .turtle{
     color: aliceblue;
@@ -69,6 +69,7 @@ p{
 
 .arrow-down{
     transition: transform .3s;
+    color: white;
 }
 
 .arrow-down:hover{
@@ -80,12 +81,14 @@ p{
 }
 
 .list-group-item.active{
-    background-color: black;
-    border-color: black;
+    background-color: #1e2c31;
+    border-color: #1e2c31;
 }
 
 .list-group-item-action:focus, .list-group-item-action:hover {
-    background-color: black;
+    background-color:#1e2c31;
+    border-color: #1e2c31;
+
 }
 
 .row{
@@ -93,7 +96,9 @@ p{
 }
 
 .list-group-item{
-    background-color: black;
+    background-color:#1e2c31;
+    border-color: #1e2c31;
+
 }
 
 .features-img{
@@ -103,6 +108,11 @@ p{
 .features-title{
     font-weight: 600;
     font-size: 3rem;
+    transition: color .3s;
+}
+
+.features-title:hover{
+    color: #1e2c31;
 }
 
 .img-div{
@@ -112,7 +122,8 @@ p{
 
 .text-div{
     text-align: left;
-    padding: 1rem 0 0 0;
+    padding: 1rem 1rem 0 0;
+
 }
 
 .features{
@@ -123,7 +134,7 @@ p{
 #flag{
     fill: #1e2c31;
     width:250px;
-    transition: transform .2s;
+    transition: transform .6s;
 }
 
 #flag:hover{
