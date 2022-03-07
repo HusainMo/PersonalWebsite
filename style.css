@@ -1,0 +1,131 @@
+#title{
+    background-color: black;
+}
+.turtle{
+    color: aliceblue;
+}
+
+.navbar-brand{
+    margin-right: 4rem;
+}
+
+.nav-link{
+    margin: 0 1rem;
+}
+
+h1{
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+h2{
+    font-family: "Raleway";
+    color: white;
+}
+
+h3{
+    font-family: "Raleway";
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: "Raleway";
+    line-height: 3rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.04rem;
+    padding-right: 1.5rem;
+}
+
+#kali-png{
+    width: 35rem;
+}
+
+.header-img{
+    text-align: center;
+    padding: 1rem;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.about-me{
+    margin-top: 8rem;
+}
+
+.dot{
+    color: #466673;
+}
+
+.arrow{
+    margin-top:10rem;
+    text-align: center;
+}
+
+.arrow-down{
+    transition: transform .3s;
+}
+
+.arrow-down:hover{
+    transform: rotate(360deg);
+}
+
+#second{
+    background-color: #466673;
+}
+
+.list-group-item.active{
+    background-color: black;
+    border-color: black;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    background-color: black;
+}
+
+.row{
+    margin: 0;
+}
+
+.list-group-item{
+    background-color: black;
+}
+
+.features-img{
+    width: 250px;
+}
+
+.features-title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.img-div{
+    text-align: right;
+    text-align: center;
+}
+
+.text-div{
+    text-align: left;
+    padding: 1rem 0 0 0;
+}
+
+.features{
+    padding: 9rem 0 6rem 0;
+    justify-content: center;
+}
+
+#flag{
+    fill: #1e2c31;
+    width:250px;
+    transition: transform .2s;
+}
+
+#flag:hover{
+    transform: scale(1.05);
+}
