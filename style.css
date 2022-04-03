@@ -140,3 +140,21 @@ p{
 #flag:hover{
     transform: scale(1.05);
 }
+
+#footer{
+    background-color: #5d7a85;
+}
+
+.links{
+    padding: 1rem;
+    text-align: center;
+}
+
+#copyright{
+    color: #1e2c31;
+}
+
+.fa-twitter, .fa-github, .fa-instagram, .fa-envelope{
+    color: #1e2c31;
+    padding: 0 1rem 1rem 1rem;
+}
