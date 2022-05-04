@@ -11,6 +11,11 @@
 
 .nav-link{
     margin: 0 1rem;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1{
@@ -30,13 +35,14 @@ h2{
 h3{
     font-family: "Raleway";
     color: white;
+    font-size: 2rem;
 }
 
 p{
     color: white;
     font-family: "Raleway";
     line-height: 3rem;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     letter-spacing: 0.04rem;
     padding-right: 1.5rem;
 }
@@ -51,7 +57,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 2%;
 }
 
 .about-me{
@@ -152,9 +158,10 @@ p{
 
 #copyright{
     color: #1e2c31;
+    margin: 2rem;
 }
 
 .fa-twitter, .fa-github, .fa-instagram, .fa-envelope{
     color: #1e2c31;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 3rem 1rem;
 }
